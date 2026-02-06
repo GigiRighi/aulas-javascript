@@ -30,15 +30,16 @@ const aluguelEspaco = duracao * 239.99
 
 //divisão dos itens comunitários
 
-const valorPessoa = (precoMesaCadeira + karaoke + aluguelEspaco) / pessoasAdultas
+const valorPessoa = (precoMesaCadeira + precoKaraoke + aluguelEspaco) / pessoasAdultas
 
-alert(` O preco da mesa e cadeira: R$${precoMesaCadeira}, do karaoke: R$${karaoke}, do espaço: R$${aluguelEspaco}
+alert(` O preco da mesa e cadeira: R$${precoMesaCadeira.toFixed(2)}, do karaoke: R$${precoKaraoke.toFixed(2)}, do espaço: R$${aluguelEspaco.toFixed(2)}
     \nO valor que cada um pagará por pessoa é R$${valorPessoa.toFixed(2)} `)
 
 // o que você terá que pagar 
 
 const valorAnfitriao = (precoSalgadinho + precoDocinhos + precoRefri + precoCopos + precoPrato + precoGarfoFaca)
-alert(`O preco do salgadinho: R$${precoSalgadinho}, dos docinhos: R$${precoDocinhos}, dos refrigerantes: R$${precoRefri}, dos copos: R$${precoCopos}, dos pratos: R$${precoPrato} e dos garfos e facas: R$${precoGarfoFaca}
+
+alert(`O preco do salgadinho: R$${precoSalgadinho.toFixed(2)}, dos docinhos: R$${precoDocinhos.toFixed(2)}, dos refrigerantes: R$${precoRefri.toFixed(2)}, dos copos: R$${precoCopos.toFixed(2)}, dos pratos: R$${precoPrato.toFixed(2)} e dos garfos e facas: R$${precoGarfoFaca.toFixed(2)}
    \n Esse será o valor total que você irá pagar R$${valorAnfitriao.toFixed(2)}
 `)
 

@@ -40,6 +40,4 @@ alert(` O preco da mesa e cadeira: R$${precoMesaCadeira.toFixed(2)}, do karaoke:
 const valorAnfitriao = (precoSalgadinho + precoDocinhos + precoRefri + precoCopos + precoPrato + precoGarfoFaca)
 
 alert(`O preco do salgadinho: R$${precoSalgadinho.toFixed(2)}, dos docinhos: R$${precoDocinhos.toFixed(2)}, dos refrigerantes: R$${precoRefri.toFixed(2)}, dos copos: R$${precoCopos.toFixed(2)}, dos pratos: R$${precoPrato.toFixed(2)} e dos garfos e facas: R$${precoGarfoFaca.toFixed(2)}
-   \n Esse será o valor total que você irá pagar R$${valorAnfitriao.toFixed(2)}
-`)
-
+   \n Esse será o valor total que você irá pagar R$${valorAnfitriao.toFixed(2)}`)

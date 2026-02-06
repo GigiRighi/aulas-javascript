@@ -32,10 +32,13 @@ const aluguelEspaco = duracao * 239.99
 
 const valorPessoa = (precoMesaCadeira + karaoke + aluguelEspaco) / pessoasAdultas
 
-alert(`O valor que cada um pagará por pessoa é R$${valorPessoa.toFixed(2)} `)
+alert(` O preco da mesa e cadeira: R$${precoMesaCadeira}, do karaoke: R$${karaoke}, do espaço: R$${aluguelEspaco}
+    \nO valor que cada um pagará por pessoa é R$${valorPessoa.toFixed(2)} `)
 
 // o que você terá que pagar 
 
 const valorAnfitriao = (precoSalgadinho + precoDocinhos + precoRefri + precoCopos + precoPrato + precoGarfoFaca)
-alert(`Esse será o valor que o você irá pagar R$${valorAnfitriao.toFixed(2)}`)
+alert(`O preco do salgadinho: R$${precoSalgadinho}, dos docinhos: R$${precoDocinhos}, dos refrigerantes: R$${precoRefri}, dos copos: R$${precoCopos}, dos pratos: R$${precoPrato} e dos garfos e facas: R$${precoGarfoFaca}
+   \n Esse será o valor total que você irá pagar R$${valorAnfitriao.toFixed(2)}
+`)
 
